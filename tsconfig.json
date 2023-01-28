@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "skipLibCheck": true,
+        "outDir": "./build",
+        "types" : ["node", "./types"],
+        "declaration": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
